@@ -1,0 +1,20 @@
+{
+  "name": "thelordoftheringapp",
+  "version": "1.0.0",
+  "description": "Se crea una aplicación web consumiendo una API del señor de los anillos, es responsiva teniendo correcta visualización en dispositivos moviles como en dispositivos desktop. Los estilos se crean con CSS puro y el HTML contiene etiquetas nombradas segun metodología BEM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vcombitad/TheLordOfTheRingAPP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vcombitad/TheLordOfTheRingAPP/issues"
+  },
+  "homepage": "https://github.com/vcombitad/TheLordOfTheRingAPP#readme"
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon APP</title>
+    <link rel="stylesheet" href="./estilos/srtyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@400;500&family=Indie+Flower&family=Roboto:wght@300;500;700&family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        
+        <nav class="nav-container">
+            <figure class="nav-container--pokemon">
+                <img src="./assets/pokemon-23.svg" alt="">
+            </figure>
+            
+            <input type="text" id="busqueda" class="nav-input--search" placeholder="Atrapa tu Pokémon">
+            <div class="nav-img--logo"></div>
+            <button id="search" class="nav-button--search">
+                 Buscar
+            </button>
+            
+        </nav>
+    </header>
+    <section>
+        <div class="img-post--header">
+            <ul class="list-type">
+                
+            </ul>
+        </div>
+        
+    </section>
+    
+        
+    <main>
+
+        <section id="container-card" class="inactive">
+            <article class="container-card--search"> 
+            </article>
+        </section>
+
+
+        <section id="randomPokemon" class="randomPokemon-container--card">
+            <div class="randompokemon-top--title">
+                <h2 id="main-section--title">Conoces estos Pokémon?</h2>
+                <button id="buscar-aleatorio">Más!</button>
+            </div>
+
+            <article id="containerRandom">
+            </article>
+
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>Hecho por @vcombitad</p>
+    </footer>
+
+
+<script src="./src/main.js"></script>
+</body>
+</html>
